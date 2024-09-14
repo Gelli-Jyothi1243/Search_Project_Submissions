@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SearchBar from './components/SearchBox';
+import SearchBar from './components/SearchBar.jsx';
 
 const App = () => {
   const [countries, setCountries] = useState([]);
